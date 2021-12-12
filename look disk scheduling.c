@@ -31,7 +31,7 @@ int main()
         }
         printf("Largest is %d", lr);
         printf("smallest is %d", sm);
-        sum = (pos - sm - 1) + (lr - sm - 1);
+        sum = (pos - sm) + (lr - sm);
     }
     if (d == 1)
     {
