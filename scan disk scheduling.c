@@ -25,7 +25,7 @@ int main()
                 lr = ar[i];
         }
         printf("Largest is %d", lr);
-        sum = (pos - 1) + (lr - 1);
+        sum = (pos) + (lr);
     }
 
     if (d == 1)
